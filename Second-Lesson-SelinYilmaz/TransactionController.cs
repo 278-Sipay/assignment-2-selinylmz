@@ -15,10 +15,10 @@ public class TransactionController : ControllerBase
 {
     private static List<Transaction> _transactions = new List<Transaction>
         {
-            new Transaction { AccountNumber = "123456789", DebitAmount = 100, Description = "Transaction 1", TransactionDate = new DateTime(2023, 1, 1), ReferenceNumber = "REF001" },
-            new Transaction { AccountNumber = "987654321", CreditAmount = -50, Description = "Transaction 2", TransactionDate = new DateTime(2023, 2, 1), ReferenceNumber = "REF002" },
-            new Transaction { AccountNumber = "123456789", DebitAmount = 200, Description = "Transaction 3", TransactionDate = new DateTime(2023, 3, 1), ReferenceNumber = "REF003" },
-            new Transaction { AccountNumber = "987654321", CreditAmount = -75, Description = "Transaction 4", TransactionDate = new DateTime(2023, 4, 1), ReferenceNumber = "REF004" }
+            new Transaction { AccountNumber = "123547689", DebitAmount = 100, Description = "Transaction 1", TransactionDate = new DateTime(2023, 1, 1), ReferenceNumber = "REF001" },
+            new Transaction { AccountNumber = "987654321", CreditAmount = -30, Description = "Transaction 2", TransactionDate = new DateTime(2023, 2, 1), ReferenceNumber = "REF002" },
+            new Transaction { AccountNumber = "123547689", DebitAmount = 240, Description = "Transaction 3", TransactionDate = new DateTime(2023, 3, 1), ReferenceNumber = "REF003" },
+            new Transaction { AccountNumber = "886754312", CreditAmount = -45, Description = "Transaction 4", TransactionDate = new DateTime(2023, 4, 1), ReferenceNumber = "REF004" }
         };
 
     [HttpGet("GetByParameter")]
